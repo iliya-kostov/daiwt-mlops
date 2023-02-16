@@ -1,22 +1,22 @@
 {
     "environments": {
         "dev": {
-            "profile": "DEFAULT",
+            "profile": "DEFAULT_WEST",
             "workspace_dir": "/Shared/daiwt_mlops/dev/dbx/daiwt_mlops_dev",
             "artifact_location": "dbfs:/Shared/daiwt_mlops/dev/dbx/projects/daiwt_mlops_dbx_dev"
         },
         "staging": {
-            "profile": "DEFAULT",
+            "profile": "DEFAULT_WEST",
             "workspace_dir": "/Shared/daiwt_mlops/staging/dbx/daiwt_mlops_staging",
             "artifact_location": "dbfs:/Shared/daiwt_mlops/staging/dbx/projects/daiwt_mlops_dbx_staging"
         },
         "prod": {
-            "profile": "DEFAULT",
+            "profile": "DEFAULT_WEST",
             "workspace_dir": "/Shared/daiwt_mlops/prod/dbx/daiwt_mlops_prod",
             "artifact_location": "dbfs:/Shared/daiwt_mlops/prod/dbx/projects/daiwt_mlops_dbx_prod"
         },
         "default": {
-            "profile": "DEFAULT",
+            "profile": "DEFAULT_WEST",
             "storage_type": "mlflow",
             "properties": {
                 "workspace_directory": "/Shared/dbx/projects/daiwt-mlops",
