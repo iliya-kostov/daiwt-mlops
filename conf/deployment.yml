@@ -86,7 +86,7 @@ environments:
         <<:
           - *staging-cluster-config
         spark_python_task:
-          python_file: '/Workspace/Repos/iliya.kostov@databricks.com/daiwt-mlops/tests/integration/sample_test.py'
+          python_file: '/Repos/iliya.kostov@databricks.com/daiwt-mlops/tests/integration/sample_test.py'
           parameters: ['--env', 'file:fuse://conf/staging/.staging.env',
                        '--conf-file', 'file:fuse://conf/pipeline_configs/sample_test.yml']
 
